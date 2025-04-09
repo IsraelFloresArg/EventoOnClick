@@ -90,3 +90,7 @@ input[type="button"]{
 .sombra{
     box-shadow: 2px 2px 2px rgb(197, 197, 197);
 }
+
+.borrar{
+    display: none;
+}

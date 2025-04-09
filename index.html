@@ -11,7 +11,7 @@
     <header>
         <h1>Petlopedia</h1>
         <input placeholder="Buscar mascotas" class="buscador" type="text">
-        <button class="login bordeNegro sombra"> Iniciar sesión </button>
+        <button class="login bordeNegro sombra" onclick="sesion()" > Iniciar sesión </button>
     </header>    
     <div class="content">
         <div class="izq">
@@ -20,20 +20,20 @@
                 <h6>sustantivo</h6>
                 <p>Plural: Gatos atigrados</p>
                 <p>Un gato de pelaje distintivo que presenta rayas, puntos o patrones e remoiino, usualmente con una marca en forma de "M" en su frente </p>
-                <input type="button" value="22 Me gusta">
+                <input type="button" onclick="alarma()" value="22 Me gusta">
             </div>
             <div class="cuadro bordeNegro">
                 <h2>Golden Retriever</h2>
                 <h6>sustantivo</h6>
                 <p>Plural: Golden Retrievers</p>
                 <p>Una raza de perro amistosa, iteligente y devota, conocida por su pelaje dorado y su habilidad para recuperar objetos sin dañarlos</p>
-                <input type="button" value="45 Me gusta">
+                <input type="button" onclick="alarma()" value="45 Me gusta">
             </div>
         </div>
         <div class="der">
             <div class="cuadro chico bordeNegro">
                 <h3>Petlopedia está definida por Ti</h3>
-                <button class="botonLargo bordeNegro sombra"> Agregar Definición </button>
+                <button class="botonLargo bordeNegro sombra" onclick="borrar(this)" > Agregar Definición </button>
             </div>
         </div>
     </div>
