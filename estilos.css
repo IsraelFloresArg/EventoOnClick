@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size:x-large;
+}h2{
+    margin-top: 5px;
+    padding: 5px 0;
+    font-size:large;
+}h3{
+    font-size:small;
+    font-weight: 600;
+}h6{
+    font-size: smaller;
+    font-style: italic;
+    font-weight:400;
+    padding: 5px 0;
+}p{
+    font-size: small;
+    padding: 5px 0;
+}
+
+header{
+    height: 80px;
+    display: flex;
+    margin: 0 5% 0 10%;
+    background-color: rgb(202, 202, 202);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.buscador{
+    width: 60%;
+}
+
+.content{
+    margin: 0 5% 0 10%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.der{
+    flex: 1;
+}
+.izq{
+    flex: 2;
+}
+.cuadro {
+    margin: 18px 0;
+    padding: 10px;
+}
+
+.bordeNegro{
+    border: 2px solid black;
+}
+
+.login{
+    background-color: rgb(0, 140, 255);
+    color: white;
+    padding: 5px 20px;
+    font-weight: 400;
+}
+
+.botonLargo{
+    background-color: green;
+    color: white;
+    width: 50%;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input[type="button"]{
+    background-color: rgb(255, 255, 196);
+    padding: 2px 5px;
+    box-shadow: 2px 2px 5px rgb(160, 160, 160);
+    margin-top: 10px;
+    font-size: x-small;
+}
+
+.sombra{
+    box-shadow: 2px 2px 2px rgb(197, 197, 197);
+}
